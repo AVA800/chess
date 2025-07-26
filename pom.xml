@@ -1,0 +1,28 @@
+<!--add basic pom-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.university</groupId>
+    <artifactId>chess</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>My Application</name>
+    <description>A simple application to demonstrate Maven POM structure.</description>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Add your dependencies here -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Add your plugins here -->
+        </plugins>
+    </build>
+</project>
